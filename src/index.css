@@ -38,20 +38,23 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Password Generator Design System */
+    --password-background: 210 41% 64%;
+    --password-input: 0 0% 85%;
+    --password-display: 0 0% 100%;
+    --password-title: 0 0% 100%;
+    --password-label: 0 0% 100%;
+    --password-text: 0 0% 20%;
+    --password-button: 0 0% 100%;
+    --password-button-text: 0 0% 0%;
+
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 

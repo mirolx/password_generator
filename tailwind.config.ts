@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        password: {
+          background: "hsl(var(--password-background))",
+          input: "hsl(var(--password-input))",
+          display: "hsl(var(--password-display))",
+          title: "hsl(var(--password-title))",
+          label: "hsl(var(--password-label))",
+          text: "hsl(var(--password-text))",
+          button: "hsl(var(--password-button))",
+          "button-text": "hsl(var(--password-button-text))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
