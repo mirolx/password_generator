@@ -7,8 +7,7 @@ This is a password generator with a simple and intuitive design.
 
 ## Live Demo
 
-[https://password-generator-weld-gamma.vercel.app](https://www.google.com/search?q=https://password-generator-weld-gamma.vercel.app)
-
+[https://password-generator-weld-gamma.vercel.app](https://password-generator-weld-gamma.vercel.app)
 ---
 
 ## 주요 기능 (Key Features)
