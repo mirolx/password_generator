@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
 
-## Project info
+# Password Generator 
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+심플하고 직관적인 디자인을 가진 비밀번호 생성기입니다.
 
-## How can I edit this code?
+This is a password generator with a simple and intuitive design.
 
-There are several ways of editing your application.
+## Live Demo
 
-**Use Lovable**
+[https://password-generator-weld-gamma.vercel.app](https://www.google.com/search?q=https://password-generator-weld-gamma.vercel.app)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 주요 기능 (Key Features)
 
-**Use your preferred IDE**
+* **사용자 정의 설정 (Customizable Settings)**
+* 최소 길이 설정 (Set minimum password length)
+* 숫자 및 특수문자 포함 여부 선택 (Option to include numbers and special characters)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **원클릭 생성 (One-click Generation)**
+* 'Generate' 버튼을 통한 즉시 무작위 암호 생성 (Instantly generate random passwords with a single click)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **클립보드 복사 (Copy to Clipboard)**
+* 생성된 암호를 아이콘 클릭 한 번으로 복사 (Easily copy the generated password by clicking the icon)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **반응형 UI (Responsive Design)**
+* 피그마 디자인을 충실히 반영한 모바일 최적화 UI (Mobile-optimized UI that faithfully reflects the Figma design)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+
+
+---
+
+## 기술 스택 (Tech Stack)
+
+* **Frontend**: React, TypeScript, Tailwind CSS
+* **Icons**: Lucide React
+* **Build Tool**: Vite
+* **Deployment**: Vercel
+* **Development**: Lovable (AI-driven development)
+
+---
+
+## 시작하기 (Getting Started)
+
+이 프로젝트를 로컬 환경에서 실행하려면 아래 단계를 따르세요.
+
+To run this project locally, follow the steps below:
+
+1. **리포지토리 클론 (Clone the repository):**
+```bash
+git clone https://github.com/mirolx/lovable-password-creator.git
+cd lovable-password-creator
+
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. **의존성 설치 (Install dependencies):**
+```bash
+npm install
 
-**Use GitHub Codespaces**
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+3. **로컬 서버 실행 (Run the local server):**
+```bash
+npm run dev
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
