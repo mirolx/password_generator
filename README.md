@@ -27,7 +27,7 @@ This is a password generator with a simple and intuitive design.
 
 
 * **반응형 UI (Responsive Design)**
-* 피그마 디자인을 충실히 반영한 모바일 최적화 UI (Mobile-optimized UI that faithfully reflects the Figma design)
+* 모바일 최적화 UI (Mobile-optimized UI)
 
 
 
